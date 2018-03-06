@@ -3,7 +3,7 @@
 
 > My Personal Website
 
-I build this website using Evan Salter'ss tutorial found here:
+I built this website using some of Evan Salter's instuctions, found here:
 http://www.evansalter.com/blog/github-pages-and-single-page-apps
 
 
