@@ -11,6 +11,9 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
+var generatePaths = require('./sitemap.js')
+var StaticSiteGenerator = require('webpack-static-site-generator')
+
 const env = require('../config/prod.env')
 
 const webpackConfig = merge(baseWebpackConfig, {
@@ -115,7 +118,13 @@ const webpackConfig = merge(baseWebpackConfig, {
         to: config.build.assetsSubDirectory,
         ignore: ['.*']
       }
-    ])
+    ]),
+
+    new StaticSiteGenerator(
+      config.build.assetsRoot,
+      generatePaths(),
+      '.main-container'
+    )
   ]
 })
 
