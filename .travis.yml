@@ -1,0 +1,22 @@
+language: node_js
+node_js:
+  - "7"
+sudo: required
+addons:
+  apt:
+    packages:
+      - xvfb
+      - libxss1
+script:
+  - yarn run lint
+  - yarn run build
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: dist
+  keep-history: true
+  target_branch: master
+  github-url: domleo.github.io
+  on:
+    branch: source
