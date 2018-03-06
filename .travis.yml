@@ -10,7 +10,7 @@ addons:
 script:
   #- yarn run lint
   - yarn run build
-  - cp README.md /dist
+  - cp README.md dist/
 deploy:
   provider: pages
   skip_cleanup: true
