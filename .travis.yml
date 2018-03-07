@@ -11,6 +11,7 @@ script:
   #- yarn run lint
   - yarn run build
   - cp README.md dist/
+  - cp CNAME dist/
 deploy:
   provider: pages
   skip_cleanup: true
