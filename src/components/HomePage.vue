@@ -1,12 +1,12 @@
 <template>
-  <div class="home">
+  <div class="homepage">
     <h1>{{ msg }}</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Domenico',
+  name: 'Homepage',
   data () {
     return {
       msg: 'Welcome to my Personal Website!'
@@ -19,6 +19,7 @@ export default {
 <style scoped>
 h1, h2 {
   font-weight: normal;
+  color: #f8f8f8;
 }
 ul {
   list-style-type: none;
