@@ -1,7 +1,7 @@
 <template>
   <div class="blog">
     <h1>{{ msg }}</h1>
-    <v-app light>
+    <v-app dark>
       <v-content>
         <v-container>
           <v-layout row wrap align-center>
@@ -11,11 +11,11 @@
                   <img class="img-circle elevation-7 mb-1" src="../../assets/logo.png">
                 </v-avatar>
                 <div class="headline">Domenico <span style="font-weight:bold">Leopardi</span></div>
-                <div class="subheading text-xs-center grey--text pt-1 pb-3">Discriptions can go here...</div>
+                <div class="subheading text-xs-center grey--text pt-1 pb-3">Descriptions can go here...</div>
                 <v-layout justify-space-between>
-                  <a href="javascript:;" class="body-2">Home</a>
+                  <a href="/" class="body-2">Home</a>
                   <a href="javascript:;" class="body-2">About</a>
-                  <a href="javascript:;" class="body-2">Github</a>
+                  <a href="https://www.github.com/domleo" class="body-2">Github</a>
                   <a href="javascript:;" class="body-2">Other</a>
                 </v-layout>
               </div>
@@ -53,7 +53,7 @@
           </v-layout>
         </v-container>
       </v-content>
-      <v-footer class="secondary" app>
+      <!--v-footer class="secondary" app>
         <v-layout row wrap align-center>
           <v-flex xs12>
             <div class="white--text ml-3">
@@ -63,7 +63,7 @@
             </div>
           </v-flex>
         </v-layout>
-      </v-footer>
+      </v-footer-->
     </v-app>
   </div>
 </template>
