@@ -3,7 +3,7 @@
       <v-content>
         <v-container>
           <v-layout row wrap align-center>
-            <v-flex xs12 md5 offset-md2>
+            <v-flex>
               <p>
                 I've created this blog to showcase computer projects I have or am working on.
                 These projects will cover just about anything that is technology I happen to be interested in.
