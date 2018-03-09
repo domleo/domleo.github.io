@@ -1,5 +1,8 @@
 <template>
   <div class="homepage">
+    <v-avatar size="250px">
+      <img class="img-circle elevation-7 mb-1" src="../assets/logo.png">
+    </v-avatar>
     <h1>{{ msg }}</h1>
   </div>
 </template>

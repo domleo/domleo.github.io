@@ -1,24 +1,19 @@
 <template>
   <div id='page-footer'>
-  <v-footer id="footer" class="blue-grey lighten-5">
-    <v-layout row wrap align-left>
-      <v-flex xs12 md4>
-        <div class="white--text ml-3">
-          Made by Domenico Leopardi
-          <v-layout justify-space-between>
-            <router-link to='/'>Home</router-link>
-            <router-link to='/aboutme'>About Me</router-link>
-            <router-link to='/projects'>Projects</router-link>
-            <router-link to='/blog'>Blog</router-link>
-            <router-link to='/contactme'>Contact me</router-link>
-            <!--a href="/" class="body-2">Home</a-->
-            <!--a href="/aboutme" class="body-2">About Me</a-->
-            <!--a href="/projects" class="body-2">Projects</a-->
-            <!--a href="/blog" class="body-2">Blog</a-->
-            <!--a href="https://www.github.com/domleo" class="body-2">Github</a-->
-            <!--a href="/contact" class="body-2">Contact me</a-->
-          </v-layout>
-        </div>
+  <v-footer height="auto" class="grey darken-3">
+    <v-layout row wrap justify-center>
+      <v-btn
+        color="white"
+        flat
+        v-for="link in links"
+        :key="link.name"
+        :to="link.url"
+        :router="true"
+        ripple>
+        {{ link.name }}
+      </v-btn>
+      <v-flex xs12 py-3 text-xs-right white--text>
+        &copy;2018 — <strong>Domenico Leopardi</strong>&nbsp;&nbsp;
       </v-flex>
     </v-layout>
   </v-footer>
@@ -27,20 +22,16 @@
 
 <script>
 export default {
-  name: 'Page-Footer'
+  name: 'Page-Footer',
+  data: () => ({
+    links: [ {name: 'Home', url: '/'},
+      {name: 'About Me', url: '/aboutme'},
+      {name: 'Blog', url: '/blog'},
+      {name: 'Contact', url: '/contact'} ]
+  })
 }
 </script>
 
 <style lang="scss" scoped>
-#page-footer {
-  z-index: 98;
-  margin: 0;
-  height: 42;
-  div {
-    color: #2B3940;
-  }
-  svg {
-    color: black;
-  }
-}
+
 </style>

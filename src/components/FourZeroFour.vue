@@ -20,4 +20,10 @@ export default {
     text-align: center;
     margin-top: 25px;
   }
+  h2 {
+    color: #f8f8f8;
+  }
+  p {
+    color: #f8f8f8;
+  }
 </style>

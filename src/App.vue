@@ -1,9 +1,6 @@
 <template>
   <div id="app">
     <v-app dark>
-      <v-avatar size="125px">
-        <img class="img-circle elevation-7 mb-1" src="./assets/logo.png">
-      </v-avatar>
       <div class="main-container">
         <v-content>
           <router-view/>
@@ -28,12 +25,11 @@ export default {
 <style>
 #app {
   overflow: hidden;
-  /*font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;*/
 }
 .main-container {
   min-height: calc(100vh - 109px);

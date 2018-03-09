@@ -4,6 +4,13 @@
         <v-container>
           <v-layout row wrap align-center>
             <v-flex xs12 md5 offset-md2>
+              <p>
+                I've created this blog to showcase computer projects I have or am working on.
+                These projects will cover just about anything that is technology I happen to be interested in.
+                Anything from building desktop computers with elaborate water cooling systems, installing/confguring linux, arduino creations and C/C++ or python programs.
+                I'll try to explain how I did it along the way.
+                Enjoy!
+              </p>
               <div v-for="post in posts" :key="post.title">
                 <v-card class="my-3" hover>
                   <v-card-media class="white--text" height="170px" :src="post.imgUrl">
@@ -82,5 +89,8 @@ li {
 }
 a {
   color: #42b983;
+}
+p {
+  color: #ffffff;
 }
 </style>
