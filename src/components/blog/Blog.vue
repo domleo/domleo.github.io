@@ -3,15 +3,6 @@
       <v-content>
         <v-container>
           <v-layout row wrap align-center>
-            <v-flex xs12 md4>
-              <div class="text-xs-center">
-                <v-avatar size="125px">
-                  <img class="img-circle elevation-7 mb-1" src="../../assets/logo.png">
-                </v-avatar>
-                <div class="headline">Domenico <span style="font-weight:bold">Leopardi</span></div>
-                <div class="subheading text-xs-center grey--text pt-1 pb-3">Descriptions can go here...</div>
-              </div>
-            </v-flex>
             <v-flex xs12 md5 offset-md2>
               <div v-for="post in posts" :key="post.title">
                 <v-card class="my-3" hover>

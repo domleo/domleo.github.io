@@ -1,27 +1,26 @@
 <template>
   <div id="app">
     <v-app dark>
-      <!--img src="./assets/logo.png"-->
       <v-avatar size="125px">
         <img class="img-circle elevation-7 mb-1" src="./assets/logo.png">
       </v-avatar>
       <div class="main-container">
         <v-content>
-          <router-view></router-view>
+          <router-view/>
         </v-content>
       </div >
-      <footer></footer>
+      <page-footer/>
     </v-app>
   </div>
 </template>
 
 <script>
-import Footer from '@/components/Footer'
+import PageFooter from '@/components/Footer'
 
 export default {
   name: 'App',
   components: {
-    Footer
+    PageFooter
   }
 }
 </script>

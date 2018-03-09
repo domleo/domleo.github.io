@@ -1,8 +1,8 @@
 <template>
-  <div id='footer'>
-  <!--v-footer id="footer" class="blue-grey lighten-5"-->
+  <div id='page-footer'>
+  <v-footer id="footer" class="blue-grey lighten-5">
     <v-layout row wrap align-left>
-      <!--v-flex xs12 md4-->
+      <v-flex xs12 md4>
         <div class="white--text ml-3">
           Made by Domenico Leopardi
           <v-layout justify-space-between>
@@ -19,20 +19,20 @@
             <!--a href="/contact" class="body-2">Contact me</a-->
           </v-layout>
         </div>
-      <!--/v-flex-->
+      </v-flex>
     </v-layout>
-  <!--/v-footer-->
+  </v-footer>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Footer'
+  name: 'Page-Footer'
 }
 </script>
 
 <style lang="scss" scoped>
-#footer {
+#page-footer {
   z-index: 98;
   margin: 0;
   height: 42;
