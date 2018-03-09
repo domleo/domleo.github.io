@@ -1,11 +1,12 @@
 <template>
   <div id="app">
     <v-app dark>
-      <div class="main-container">
+      <header-bar/>
         <v-content>
-          <router-view/>
+          <div class="main-container">
+            <router-view/>
+          </div>
         </v-content>
-      </div >
       <page-footer/>
     </v-app>
   </div>
@@ -13,22 +14,22 @@
 
 <script>
 import PageFooter from '@/components/Footer'
+import HeaderBar from '@/components/HeaderBar'
 
 export default {
   name: 'App',
   components: {
-    PageFooter
+    PageFooter,
+    HeaderBar
   }
 }
 </script>
 
 <style>
 #app {
-  overflow: hidden;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 .main-container {
