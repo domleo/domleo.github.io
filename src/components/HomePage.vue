@@ -5,6 +5,9 @@
         <img class="img-circle elevation-7 mb-1" src="../assets/logo.png">
       </v-avatar>
       <h1>{{ msg }}</h1>
+      <a v-tooltip:top="{ html: 'Click to view profile on CodeWars' }" href="https://www.codewars.com/users/domleo" target="_blank">
+        <img src="https://www.codewars.com/users/domleo/badges/micro"/>
+      </a>
     </v-container>
   </div>
 </template>
