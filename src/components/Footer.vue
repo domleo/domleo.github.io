@@ -42,8 +42,11 @@
         <!--a v-tooltip:top="{ html: 'Click to view profile on Instagram' }" href="https://www.workhoppers.com/fr/workhopper/45010/domenico" target="_blank">
           <icon name="workhoppers" scale="10"></icon>
         </a-->
-        &nbsp;&nbsp;
-        &copy;2018 — <strong>Domenico Leopardi</strong>&nbsp;&nbsp;
+      </v-flex>
+      <v-flex xs6 px-3 sm5 text-xs-right white--text>
+        <div class='copyandname'>
+          &copy;{{ new Date().getFullYear() }} — <strong>Domenico Leopardi</strong>
+        </div>
       </v-flex>
     </v-layout>
   </v-footer>
@@ -71,6 +74,9 @@ svg {
 }
 a {
   padding: 5px;
+}
+.copyandname {
+  height: 100vh;
 }
 .fa {
   padding: 5px;
