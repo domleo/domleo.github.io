@@ -76,7 +76,7 @@ a {
   padding: 5px;
 }
 .copyandname {
-  height: 100vh;
+  //height: 100vh;
 }
 .fa {
   padding: 5px;

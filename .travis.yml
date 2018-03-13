@@ -12,6 +12,8 @@ script:
   - yarn run build
   - cp README.md dist/
   - cp CNAME dist/
+  - touch dist/README.md
+  - touch dist/CNAME
 deploy:
   provider: pages
   skip_cleanup: true
