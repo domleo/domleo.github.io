@@ -102,7 +102,7 @@ a {
   background: #585858;
 }
 .fa-github {
-  background: #585858;
+  background: #000000;
 }
 .fa-linkedin {
   border-radius: 25%;
