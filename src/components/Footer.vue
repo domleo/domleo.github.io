@@ -44,13 +44,13 @@
           <icon name="workhoppers" scale="10"></icon>
         </a-->
       </v-flex>
-      <v-flex xs12 py-1 sm6 md6 lg6 xl6 order-1 text-xs-center>
+      <v-flex xs12 px-3 py-3 sm6 md6 lg6 xl6 order-1 text-xs-left>
         <v-tooltip top>
-          <v-avatar :tile=true slot="activator">
+          <v-card :flat=true slot="activator">
             <a href="https://www.codewars.com/users/domleo/completed">
               <img src="https://www.codewars.com/users/domleo/badges/small"/>
             </a>
-          </v-avatar>
+          </v-card>
           <span>View my profile on CodeWars</span>
         </v-tooltip>
       </v-flex>
