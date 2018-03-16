@@ -1,7 +1,8 @@
 <template>
   <div id='page-footer'>
   <v-footer height="auto" class="grey darken-3">
-    <v-layout row wrap justify-center>
+    <v-container fluid>
+    <v-layout row wrap>
       <v-flex xs12 py-3 text-xs-center white--text>
       <v-btn
         color="white"
@@ -14,7 +15,7 @@
         {{ link.name }}
       </v-btn>
       </v-flex>
-      <v-flex xs6 py-3 px-3 text-xs-left white--text>
+      <v-flex xs12 py-3 px-3 text-xs-left white--text>
         <a v-tooltip:top="{ html: 'Click to send me an email' }" href="mailto:domenico.leopardi@gmail.com" target="_blank">
           <icon class="fa fa-envelope" name="envelope" scale="10"></icon>
         </a>
@@ -43,12 +44,18 @@
           <icon name="workhoppers" scale="10"></icon>
         </a-->
       </v-flex>
-      <v-flex xs6 px-3 sm5 text-xs-right white--text>
-        <div class='copyandname'>
-          &copy;{{ new Date().getFullYear() }} — <strong>Domenico Leopardi</strong>
-        </div>
+      <v-flex xs12 sm6 md6 lg6 xl6 order-1 >
+        <v-breadcrumbs>
+          <a href="https://www.codewars.com/users/domleo/completed">
+            <img src="https://www.codewars.com/users/domleo/badges/small"/>
+          </a>
+        </v-breadcrumbs>
+      </v-flex>
+      <v-flex xs12 sm6 md6 lg6 xl6 order-2 text-xs-right>
+        <v-card-text>&copy;{{ new Date().getFullYear() }} — <strong>Domenico Leopardi</strong></v-card-text>
       </v-flex>
     </v-layout>
+    </v-container>
   </v-footer>
   </div>
 </template>
@@ -74,9 +81,6 @@ svg {
 }
 a {
   padding: 5px;
-}
-.copyandname {
-  //height: 100vh;
 }
 .fa {
   padding: 5px;
