@@ -44,12 +44,15 @@
           <icon name="workhoppers" scale="10"></icon>
         </a-->
       </v-flex>
-      <v-flex xs12 sm6 md6 lg6 xl6 order-1 >
-        <v-breadcrumbs>
-          <a href="https://www.codewars.com/users/domleo/completed">
-            <img src="https://www.codewars.com/users/domleo/badges/small"/>
-          </a>
-        </v-breadcrumbs>
+      <v-flex xs12 py-1 sm6 md6 lg6 xl6 order-1 text-xs-center>
+        <v-tooltip top>
+          <v-avatar :tile=true slot="activator">
+            <a href="https://www.codewars.com/users/domleo/completed">
+              <img src="https://www.codewars.com/users/domleo/badges/small"/>
+            </a>
+          </v-avatar>
+          <span>View my profile on CodeWars</span>
+        </v-tooltip>
       </v-flex>
       <v-flex xs12 sm6 md6 lg6 xl6 order-2 text-xs-right>
         <v-card-text>&copy;{{ new Date().getFullYear() }} — <strong>Domenico Leopardi</strong></v-card-text>
