@@ -4,7 +4,8 @@
       <v-avatar size="250px">
         <img class="img-circle elevation-7 mb-1" src="../assets/logo.png">
       </v-avatar>
-      <h1>{{ msg }}</h1>
+      <h1>Hi, I am Domenico Leopardi.</h1>
+      <h2>Welcome to my personal website!</h2>
     </v-container>
   </div>
 </template>
@@ -28,5 +29,9 @@ export default {
 h1, h2 {
   font-weight: normal;
   color: #f8f8f8;
+  text-align: left;
+}
+h2 {
+  text-align: right;
 }
 </style>

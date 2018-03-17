@@ -16,30 +16,54 @@
       </v-btn>
       </v-flex>
       <v-flex xs12 py-3 px-3 text-xs-left white--text>
-        <a v-tooltip:top="{ html: 'Click to send me an email' }" href="mailto:domenico.leopardi@gmail.com" target="_blank">
-          <icon class="fa fa-envelope" name="envelope" scale="10"></icon>
-        </a>
-        <a v-tooltip:top="{ html: 'Click to view profile on GitHub' }" href="https://github.com/domleo/" target="_blank">
-          <icon class="fa fa-github" name="github" scale="10"></icon>
-        </a>
-        <a v-tooltip:top="{ html: 'Click to view profile on Linkedin' }" href="https://www.linkedin.com/in/domenicoleopardi" target="_blank">
-          <icon class="fa fa-linkedin" name="linkedin" scale="10"></icon>
-        </a>
-        <a v-tooltip:top="{ html: 'Click to view my Youtube page' }" href="https://www.youtube.com/user/AnOtherLeopardi" target="_blank">
-          <icon class="fa fa-youtube" name="youtube" scale="10"></icon>
-        </a>
-        <a v-tooltip:top="{ html: 'Click to view my profile on Google+' }" href="https://plus.google.com/+DomenicoLeopardi" target="_blank">
-          <icon class="fa fa-google-plus" name="google-plus" scale="10"></icon>
-        </a>
-        <a v-tooltip:top="{ html: 'Click to view my Tweetwe page' }" href="https://twitter.com/SnowLeopard789" target="_blank">
-          <icon class="fa fa-twitter" name="twitter" scale="10"></icon>
-        </a>
-        <a v-tooltip:top="{ html: 'Click to view profile on Facebook' }" href="https://www.facebook.com/domenico.leopardi" target="_blank">
-          <icon class="fa fa-facebook" name="facebook" scale="10"/>
-        </a>
-        <a v-tooltip:top="{ html: 'Click to view profile on Instagram' }" href="https://www.instagram.com/snowleopard_dom" target="_blank">
-          <icon class="fa fa-instagram" name="instagram" scale="10"></icon>
-        </a>
+        <v-tooltip top>
+          <a slot="activator" href="mailto:domenico.leopardi@gmail.com">
+            <icon class="fa fa-envelope" name="envelope" scale="10"></icon>
+          </a>
+          <span>Click to send me an email</span>
+        </v-tooltip>
+        <v-tooltip top>
+          <a slot="activator" href="https://github.com/domleo/">
+            <icon class="fa fa-github" name="github" scale="10"></icon>
+          </a>
+          <span>Click to view profile on GitHub</span>
+        </v-tooltip>
+        <v-tooltip top>
+          <a slot="activator" href="https://www.linkedin.com/in/domenicoleopardi">
+            <icon class="fa fa-linkedin" name="linkedin" scale="10"></icon>
+          </a>
+          <span>Click to view profile on Linkedin</span>
+        </v-tooltip>
+        <v-tooltip top>
+          <a slot="activator" href="https://www.youtube.com/user/AnOtherLeopardi">
+            <icon class="fa fa-youtube" name="youtube" scale="10"></icon>
+          </a>
+          <span>Click to view profile on Youtube</span>
+        </v-tooltip>
+        <v-tooltip top>
+          <a slot="activator" href="https://plus.google.com/+DomenicoLeopardi">
+            <icon class="fa fa-google-plus" name="google-plus" scale="10"></icon>
+          </a>
+          <span>Click to view profile on Google+</span>
+        </v-tooltip>
+        <v-tooltip top>
+          <a slot="activator" href="https://twitter.com/SnowLeopard789">
+            <icon class="fa fa-twitter" name="twitter" scale="10"></icon>
+          </a>
+          <span>Click to view profile on Twiiter</span>
+        </v-tooltip>
+        <v-tooltip top>
+          <a slot="activator" href="https://www.facebook.com/domenico.leopardi">
+            <icon class="fa fa-facebook" name="facebook" scale="10"/>
+          </a>
+          <span>Click to view profile on Facebook</span>
+        </v-tooltip>
+        <v-tooltip top>
+          <a slot="activator" href="https://www.instagram.com/snowleopard_dom">
+            <icon class="fa fa-instagram" name="instagram" scale="10"></icon>
+          </a>
+          <span>Click to view profile on Intragram</span>
+        </v-tooltip>
         <!--a v-tooltip:top="{ html: 'Click to view profile on Instagram' }" href="https://www.workhoppers.com/fr/workhopper/45010/domenico" target="_blank">
           <icon name="workhoppers" scale="10"></icon>
         </a-->
