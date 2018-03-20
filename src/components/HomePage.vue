@@ -12,7 +12,11 @@
       <p/>
       <p/>
       <p>
-        I taught myself how to build computers and program in C when I was sixteen and have been experimenting with computer programming ever since.
+        A little about myself...
+      </p>
+      <p>
+        I have always been a very interested in electronics and computers. I taught myself how to build computers and program
+        in C when I was sixteen and have been experimenting with computer programming ever since.
         This led me to complete a DEC in micro systems at Vanier College, where I had to program 8088 microprocessors in
         C and Assembly that worked in real time. I then continue my studies in Software Engineering at Ecole de Technologie
         Superieure. There I learned how to make graphical user interfaces applications for desktop or mobile, multi-threaded
@@ -20,8 +24,9 @@
         product.
       </p>
       <p>
-        I also have lots of experience working with multiple programming languages that work together for the same purpose.
-        Most of my experience was with C++,  But I have worked with Java in the past and I've been learning Javascript on my
+        Most of my experience was been with C++, but I am use to picking new languages very quickly. Thus, I have lots of
+        experience working with multiple programming languages, that work together for the same application. I have worked
+        with Java in the past (especially during school projects) and I've been learning Javascript on my
         own time. I usually work in Windows, but I have to issues working in Linux or OSX environments as well.
       </p>
       <h2>Programming Languages</h2>
@@ -34,7 +39,7 @@
       </p>
       <h2>Libraries and Frameworks</h2>
       <p>
-        Boost, VueJS, Qt, WxWidgets, Unreal Engine 4
+        Boost, Qt, WxWidgets, Arduino, Unreal Engine 4, VueJS, NodeJS
       </p>
       <h2>Concepts</h2>
       <p>
