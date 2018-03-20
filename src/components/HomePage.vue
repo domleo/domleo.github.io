@@ -12,11 +12,47 @@
       <p/>
       <p/>
       <p>
-        I taught myself C when I was sixteen and have been experimenting with computer programming ever since.
+        I taught myself how to build computers and program in C when I was sixteen and have been experimenting with computer programming ever since.
         This led me to complete a DEC in micro systems at Vanier College, where I had to program 8088 microprocessors in
-        C and Assembly. I then continue my studies in Software Engineering. I also have lots of experience
-        working with multiple programming languages that work together for the same purpose, but most of it was
-        C++. I usually work in Windows, but in the last year, I have worked a lot in Linux environments as well.
+        C and Assembly that worked in real time. I then continue my studies in Software Engineering at Ecole de Technologie
+        Superieure. There I learned how to make graphical user interfaces applications for desktop or mobile, multi-threaded
+        programs and distributed systems. I also learned how to establish a software developement lifecycle for any software
+        product.
+      </p>
+      <p>
+        I also have lots of experience working with multiple programming languages that work together for the same purpose.
+        Most of my experience was with C++,  But I have worked with Java in the past and I've been learning Javascript on my
+        own time. I usually work in Windows, but I have to issues working in Linux or OSX environments as well.
+      </p>
+      <h2>Programming Languages</h2>
+      <p>
+        C++, C, Java, SQL, Javascript, Python, Bash
+      </p>
+      <h2>Tools</h2>
+      <p>
+        Visual Studio, Eclipse, Git, GitLab, SVN, Windows, Linux, OSX
+      </p>
+      <h2>Libraries and Frameworks</h2>
+      <p>
+        Boost, VueJS, Qt, WxWidgets, Unreal Engine 4
+      </p>
+      <h2>Concepts</h2>
+      <p>
+        Design Pattens, Multi-threaded, Distributed Systems, Software Developoment lifecycle
+      </p>
+      <h2>Spoken Languages</h2>
+      <p>
+        English Written and Spoken - Fluent Native
+      </p>
+      <p>
+        French Written and Spoken - Fluent Native
+      </p>
+      <h2>Education</h2>
+      <p>
+        BAC - Software Engineering - ETS (In Progess, but nearly done)
+      </p>
+      <p>
+        DEC - Digital Systems - Vanier College
       </p>
       </v-flex>
       </v-layout>
@@ -47,5 +83,8 @@ h1, h2, p {
 }
 h2 {
   text-align: right;
+}
+p {
+  font-size: 110%;
 }
 </style>
