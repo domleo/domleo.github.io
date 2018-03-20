@@ -4,7 +4,7 @@ import HomePage from '@/components/HomePage'
 import Blog from '@/components/blog/Blog'
 import FourZeroFour from '@/components/FourZeroFour'
 import Contact from '@/components/Contact'
-import AboutMe from '@/components/AboutMe'
+import CV from '@/components/CV'
 
 Vue.use(Router)
 
@@ -26,9 +26,9 @@ export default new Router({
       component: FourZeroFour
     },
     {
-      path: '/aboutme',
-      name: 'About Me',
-      component: AboutMe
+      path: '/cv',
+      name: 'CV',
+      component: CV
     },
     {
       path: '/contact',

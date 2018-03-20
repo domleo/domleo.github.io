@@ -1,5 +1,5 @@
 <template>
-    <div class="aboutme">
+    <div class="cv">
         <v-container>
             <h1>About Me</h1>
         </v-container>
@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: 'AboutMe'
+  name: 'CV'
 }
 </script>
 

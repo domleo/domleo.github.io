@@ -24,7 +24,7 @@ export default {
   name: 'Headerbar',
   data: () => ({
     links: [ {name: 'Home', url: '/'},
-      {name: 'About Me', url: '/aboutme'},
+      {name: 'CV', url: '/cv'},
       {name: 'Blog', url: '/blog'},
       {name: 'Contact', url: '/contact'} ]
   })
